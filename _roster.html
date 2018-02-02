@@ -1,0 +1,19 @@
+<html> 
+<head> 
+   	<title>...VUELOS NACIONALES...</title> 
+<script> 
+   	var direcciones = new Array("http://anilloverde.mipropia.com/roster/1.html", "http://www.ozu.es", "http://www.hispavista.com")
+   	function enlaceAleatorio(){ 
+      	aleat = Math.random() * direcciones.length 
+      	aleat = Math.floor(aleat) 
+      	window.location=direcciones[aleat] 
+   	} 
+</script> 
+</head> 
+
+<body> 
+<center>
+<a href="javascript:enlaceAleatorio()">...VUELOS NACIONALES...</a> 
+</center>
+</body> 
+</html> 
