@@ -1,0 +1,52 @@
+<html> 
+<head> 
+   	<title>...GENERADOR DE ROSTER AUTOMÁTICO...</title> 
+<script> 
+   	var direcciones = new Array(
+	"27.html",
+	"28.html",
+	"29.html",
+	"30.html",
+	
+	
+	)
+   	function enlaceAleatorio(){ 
+      	aleat = Math.random() * direcciones.length 
+      	aleat = Math.floor(aleat) 
+      	window.location=direcciones[aleat] 
+   	} 
+</script> 
+<script> 
+   	var direcciones2 = new Array("https://as.com/", "http://www.marca.com")
+   	function enlaceAleatorio2(){ 
+      	aleat = Math.random() * direcciones2.length 
+      	aleat = Math.floor(aleat) 
+      	window.location=direcciones2[aleat] 
+   	} 
+</script> 
+<script> 
+   	var direcciones3 = new Array("https://as.com/", "http://www.marca.com")
+   	function enlaceAleatorio3(){ 
+      	aleat = Math.random() * direcciones3.length 
+      	aleat = Math.floor(aleat) 
+      	window.location=direcciones2[aleat] 
+   	} 
+</script> 
+</head> 
+
+<body> 
+<center>
+<!-- <a href="javascript:enlaceAleatorio()">...AUTOROSTER CVS...</a>  -->
+<a href="javascript:enlaceAleatorio()"><img src="auto_eu.jpg""alt="Acceso al generador de ROSTER"></a>
+<p></p>
+<!-- <a href="javascript:enlaceAleatorio()"><img src=>...AUTOROSTER CVS...</a>  -->
+</center>
+<!-- <center> 
+<a href="javascript:enlaceAleatorio2()">...VUELOS INTERNACIONALES...</a> 
+</center><p></p>
+<center>
+<a href="javascript:enlaceAleatorio3()">...VUELOS ALEATORIOS...</a> 
+</center>
+ -->
+</body> 
+</html> 
